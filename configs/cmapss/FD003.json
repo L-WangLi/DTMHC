@@ -1,0 +1,36 @@
+{
+  "dataset": "FD003",
+  "in_dim": 14,
+  "window": 40,
+  "hist_seg": 10,
+  "hist_slots": 56,
+  "hist_condres": false,
+  "split_seed": 42,
+  "train_short_prefixes": true,
+  "target_scale": 125.0,
+  "model": {
+    "d": 64,
+    "heads": 4,
+    "ff": 128,
+    "layers": 2,
+    "patch": 8,
+    "stride": 4,
+    "d_ch": 16,
+    "dropout": 0.05
+  },
+  "learning_rate": 0.0003,
+  "seed": 7,
+  "epochs": 150,
+  "batch_size": 256,
+  "weight_decay": 0.0001,
+  "eta_min": 1e-05,
+  "grad_clip": 1.0,
+  "patience": 20,
+  "min_delta": 0.0001,
+  "eval_batch_size": 256,
+  "preprocessing": {
+    "normalization": "global_minmax",
+    "validation_fraction": 0.1,
+    "condition_clusters": 1
+  }
+}

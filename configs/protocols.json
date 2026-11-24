@@ -1,0 +1,17 @@
+{
+  "description": "Ranges are inclusive. Training engines are development engines excluding validation engines. C-MAPSS development and test IDs refer to separate cohorts.",
+  "subsets": {
+    "FD001": {"development_range": [1, 100], "validation_units": [1, 11, 23, 40, 45, 46, 54, 71, 81, 84], "test_range": [1, 100]},
+    "FD002": {"development_range": [1, 260], "validation_units": [7, 10, 20, 25, 31, 47, 78, 105, 115, 120, 143, 174, 178, 180, 182, 186, 191, 202, 205, 207, 212, 214, 221, 224, 243, 259], "test_range": [1, 259]},
+    "FD003": {"development_range": [1, 100], "validation_units": [1, 11, 23, 40, 45, 46, 54, 71, 81, 84], "test_range": [1, 100]},
+    "FD004": {"development_range": [1, 249], "validation_units": [7, 10, 16, 20, 25, 61, 68, 69, 98, 105, 113, 115, 138, 163, 176, 181, 184, 194, 197, 200, 202, 216, 224, 240, 247], "test_range": [1, 248]},
+    "DS01": {"development_range": [1, 6], "validation_units": [1], "test_range": [7, 10]},
+    "DS03": {"development_range": [1, 9], "validation_units": [5], "test_range": [10, 15]},
+    "DS04": {"development_range": [1, 6], "validation_units": [3], "test_range": [7, 10]},
+    "DS05": {"development_range": [1, 6], "validation_units": [5], "test_range": [7, 10]},
+    "DS06": {"development_range": [1, 6], "validation_units": [5], "test_range": [7, 10]},
+    "DS07": {"development_range": [1, 6], "validation_units": [5], "test_range": [7, 10]},
+    "DS08a": {"development_range": [1, 9], "validation_units": [9], "test_range": [10, 15]},
+    "DS08c": {"development_range": [1, 6], "validation_units": [6], "test_range": [7, 10]}
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "dataset": "DS08c",
+  "in_dim": 18,
+  "window": 60,
+  "hist_seg": 6,
+  "hist_slots": 94,
+  "hist_condres": false,
+  "split_seed": 42,
+  "train_short_prefixes": true,
+  "target_scale": 125.0,
+  "model": {
+    "d": 64,
+    "heads": 4,
+    "ff": 128,
+    "layers": 2,
+    "patch": 8,
+    "stride": 4,
+    "d_ch": 16,
+    "dropout": 0.05
+  },
+  "learning_rate": 0.001,
+  "seed": 7,
+  "epochs": 150,
+  "batch_size": 256,
+  "weight_decay": 0.0001,
+  "eta_min": 1e-05,
+  "grad_clip": 1.0,
+  "patience": 20,
+  "min_delta": 0.0001,
+  "eval_batch_size": 256,
+  "preprocessing": {
+    "intervals_per_flight": 3,
+    "window_stride": 1,
+    "ridge": 0.001,
+    "sensor_residualization": false,
+    "coordinate": "interval observation index"
+  }
+}

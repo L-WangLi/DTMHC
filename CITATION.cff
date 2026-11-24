@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: >-
+  If you use this implementation, please cite the DTMHC manuscript.
+type: software
+title: DTMHC
+authors:
+  - family-names: Wang
+    given-names: Li
+preferred-citation:
+  type: unpublished
+  title: >-
+    DTMHC: Dual Timescale Modeling with Historical Context Enhancement
+    for Turbofan Engine Remaining Useful Life Prediction
+  authors:
+    - family-names: Wang
+      given-names: Li
+    - family-names: Chaw
+      given-names: Jun Kit
+    - family-names: Ang
+      given-names: Mei Choo
+
+  year: 2026
+  notes: Unpublished manuscript
