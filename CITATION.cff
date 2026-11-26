@@ -1,15 +1,17 @@
 cff-version: 1.2.0
 message: >-
-  If you use this implementation, please cite the DTMHC manuscript.
+  If you use this implementation, please cite the DTMHC
+  manuscript using the preferred citation below.
 type: software
 title: DTMHC
+repository-code: "https://github.com/L-WangLi/DTMHC"
 authors:
   - family-names: Wang
     given-names: Li
 preferred-citation:
   type: unpublished
   title: >-
-    DTMHC: Dual Timescale Modeling with Historical Context Enhancement
+    DTMHC: Degradation Trajectory Modeling with Historical Context
     for Turbofan Engine Remaining Useful Life Prediction
   authors:
     - family-names: Wang
@@ -18,6 +20,13 @@ preferred-citation:
       given-names: Jun Kit
     - family-names: Ang
       given-names: Mei Choo
-
+    - family-names: Zhang
+      given-names: Guixian
+    - family-names: Cheng
+      given-names: Xiang
+    - family-names: Wang
+      given-names: Hong Qing
+    - family-names: Wong
+      given-names: Yan Chiew
   year: 2026
-  notes: Unpublished manuscript
+  notes: Manuscript submitted for publication
