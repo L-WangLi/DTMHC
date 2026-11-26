@@ -1,4 +1,4 @@
-# DTMHC: Dual Timescale Modeling with Historical Context Enhancement for Turbofan Engine Remaining Useful Life Prediction
+# DTMHC: Degradation Trajectory Modeling with Historical Context for Turbofan Engine Remaining Useful Life Prediction
 
 
 The final model combines historical segment statistics, a PatchTST recent-window encoder, temporal fusion and RUL regression. It supports C-MAPSS and eight N-CMAPSS subsets, with a separately trained model for each subset.
@@ -50,4 +50,20 @@ Evaluation reports RMSE and NASA Score using each C-MAPSS test engine's last obs
 
 Training uses RUL/125 with MSE; reported predictions are `125 * clip(output, 0, 1)`. C-MAPSS labels are capped at 125; N-CMAPSS labels are uncapped flight-cycle RUL. All preprocessing is fitted on training engines only. N-CMAPSS uses three equal-sample intervals per flight; DS08c uses sensor z-scores without residualization.
 
- Citation information is in `CITATION.cff`.
+ ## Citation
+
+The manuscript has been submitted for publication.
+If you use this work, please cite:
+
+```bibtex
+@unpublished{wang2026dtmhc,
+  author = {Wang, Li and Chaw, Jun Kit and Ang, Mei Choo and
+            Zhang, Guixian and Cheng, Xiang and
+            Wang, Hong Qing and Wong, Yan Chiew},
+  title  = {{DTMHC}: Degradation Trajectory Modeling with
+            Historical Context for Turbofan Engine
+            Remaining Useful Life Prediction},
+  year   = {2026},
+  note   = {Manuscript submitted for publication}
+}
+```
